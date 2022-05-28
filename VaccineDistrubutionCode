@@ -372,7 +372,7 @@ for r = (1:1:numRows)
     end
 end
 %---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ml = imread('Picture3.jpg');
+ml = imread('VaccineDistributionMapLegend.jpg');
 mapLegend = imresize(ml,0.49);
 newJersey(25:81,101:154,1) = mapLegend(5:61,1:54,1);
 newJersey(25:81,101:154,2) = mapLegend(5:61,1:54,2);                        %Map Legend
