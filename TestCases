@@ -21,8 +21,4 @@ for c = (1:1:cols)
     end
 end
 %-------------------------------------------------------------------------------------------------------------------------
-%100,000 random test case example:
-%Result
-	%Distribution Plan -
-	%New Jersey Vaccinated Map -
-	%Unvaccinated Eligible Patients - 
+
