@@ -1,4 +1,4 @@
-%Since the imported file is most like going to be a combination of cell arrays and MATLAB is unable to manipulate cell arrays, this function turns the data into a 
+%Since the imported file is most likely going to be a combination of cell arrays and MATLAB is unable to manipulate cell arrays, this function turns the data into a 
 %matrix so MATLAB can read and manipulate it. After using this, you just use the variable patienStats in the vaccineDistributionCode
 %---------------------------------------------------------------------------------------------------------------------------------------------
 function [patientStats] = importedDataFunction(File)
