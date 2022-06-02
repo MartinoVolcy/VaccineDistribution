@@ -1,7 +1,7 @@
 %To create random test cases I wrote this script. It can be used to see if the program is 
 %running properly because it uses all aspect of the program
 %----------------------------------------------------------------------------------------------------------------------
-largeTestCase = zeros(5,100);
+largeTestCase = zeros(5,100000);
 idNumber = [4637,6474,7339,8384];
 phase = [1, 2, 3, 4, 5];
 numVax = [0, 1, 2];
