@@ -497,5 +497,5 @@ title('New Jersey Vaccinated Regions')
 writematrix(distributionPlan,'DistributionPlanFile.csv')
 writematrix(remainingEligiblePatients,'RemainingEligliblePatientsFile.csv') %configures the data to files
 imwrite(newJersey,'NewJerseyVaccinatedMap.png','png')
+%writematrix(patientStats,'LargeTestCaseExample.csv');%for test case only
 end
-
